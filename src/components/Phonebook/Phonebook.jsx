@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import ContactForm from './ContactForm';
-import ContactList from './ContactList';
+import ContactForm from '../ContactForm/ContactForm';
+import ContactList from '../ContactList/ContactList';
 
 const Phonebook = () => {
   const initialContacts = [
